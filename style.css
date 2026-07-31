@@ -468,6 +468,16 @@ article .description span {
   font-size: smaller;
 }
 
+.anchor {
+  transition: 0.2s;
+  opacity: 0;
+}
+
+.anchor-heading:hover .anchor,
+.anchor-heading:focus .anchor {
+  opacity: 1;
+}
+
 article p {
   margin-bottom: 1rem;
 }
