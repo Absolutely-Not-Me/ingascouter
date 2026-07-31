@@ -474,7 +474,7 @@ article .description span {
 }
 
 .anchor-heading:hover .anchor,
-.anchor-heading:focus .anchor {
+.anchor-heading:focus-within .anchor {
   opacity: 1;
 }
 
